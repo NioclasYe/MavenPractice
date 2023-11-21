@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+ <!-- parent標籤，給當前工程配置父工程 -->
+  <parent>
+    <!-- 指定父工程坐標，找到父工程 -->
+    <groupId>com.nicolas.maven</groupId>
+    <artifactId>pro03-maven-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <!-- 子工程的 groupId 和 父工程的groupId 一樣，可以省略 -->
+  <!-- <groupId>com.nicolas.maven</groupId> -->
+   <!-- 子工程的version 和 父工程的version一樣，可以省略 -->
+  <!-- <version>1.0-SNAPSHOT</version> -->
+
+  <!-- 省略groupId、version 標籤，此工程的坐標『可以只保留artifactId』 -->
+  <artifactId>pro04-maven-module</artifactId>
+
+  <name>pro04-maven-module</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+   <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-expression</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>

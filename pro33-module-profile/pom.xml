@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nicolas.maven</groupId>
+    <artifactId>pro33-module-profile</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--    <profiles>-->
+    <!--        <profile>-->
+    <!--            <id>myJDKProfile</id>-->
+    <!--            &lt;!&ndash; build 標籤：訂製構建過程&ndash;&gt;-->
+    <!--            <build>-->
+    <!--                &lt;!&ndash; plugins 標籤：使用到哪一些插件&ndash;&gt;-->
+    <!--                <plugins>-->
+    <!--                    &lt;!&ndash;  plugin 標籤：指定一個具體的插件&ndash;&gt;-->
+    <!--                    <plugin>-->
+    <!--                        <groupId>org.apache.maven.plugins</groupId>-->
+    <!--                        <artifactId>maven-compiler-plugin</artifactId>-->
+    <!--                        <version>3.8.1</version>-->
+    <!--                        &lt;!&ndash;   configuration 標籤：配置 maven-compiler-plugin 插件&ndash;&gt;-->
+    <!--                        <configuration>-->
+    <!--                            &lt;!&ndash; 每個插件可以配置的參數都是不同的&ndash;&gt;-->
+    <!--                            <source>1.6</source>-->
+    <!--                            <target>1.6</target>-->
+    <!--                            <encoding>UTF-8</encoding>-->
+    <!--                        </configuration>-->
+    <!--                    </plugin>-->
+    <!--                </plugins>-->
+    <!--            </build>-->
+    <!--        </profile>-->
+    <!--    </profiles>-->
+
+    <!--資源過濾-->
+    <profiles>
+        <profile>
+            <id>devJDBC</id>
+            <properties>
+                <dev.jdbc.user>root</dev.jdbc.user>
+                <dev.jdbc.password>atguigus</dev.jdbc.password>
+                <dev.jdbc.url>http://localhost:3306/db_good</dev.jdbc.url>
+                <dev.jdbc.driver>com.mysql.jdbc.Driver</dev.jdbc.driver>
+            </properties>
+            <build>
+                <resources>
+                    <resource>
+
+                        <!-- 指定的目錄開啟資源過濾功能 -->
+                        <directory>src/main/resources</directory>
+
+                        <!-- true：開啟資源過濾功能-->
+                        <filtering>true</filtering>
+
+                        <includes>
+                            <include>*.properties</include>
+                        </includes>
+
+                        <!-- 排除 happy.properties 資源-->
+                        <excludes>
+                            <exclude>happy.properties</exclude>
+                        </excludes>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+    </profiles>
+
+</project>

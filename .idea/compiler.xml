@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro27-module-c" />
+        <module name="pro29-module-x" />
+        <module name="pro31-module-z" />
+        <module name="pro30-module-y" />
+        <module name="pro33-module-profile" />
+        <module name="pro25-module-a" />
+        <module name="pro37-module-use-outer" />
+        <module name="pro05-demo-all-one" />
+        <module name="pro35-module-mirror-jar" />
+        <module name="hello-maven-plugin" />
+        <module name="pro28-module-b" />
+        <module name="pro26-module-b" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro34-module-micro" target="11" />
+      <module name="pro99-module-my-plugin" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

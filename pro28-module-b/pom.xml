@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nicolas.maven</groupId>
+    <artifactId>pro28-module-b</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.nicolas.maven</groupId>
+                <artifactId>hello-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <!-- executions標籤 執行部分，可以有多個執行部分-->
+                <executions>
+                    <execution>
+                        <!--  id:唯一標示（插件前綴）-->
+                        <id>hello</id>
+                        <!-- 指定和目標關聯的生命週期-->
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>sayHello</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <!--  指定多個激活條件-->
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <jdk>1.5</jdk>
+                <os>
+                    <name>Windows XP</name>
+                    <family>Windows</family>
+                    <arch>x86</arch>
+                    <version>5.1.2600</version>
+                </os>
+                <property>
+                    <name>mavenVersion</name>
+                    <value>2.0.5</value>
+                </property>
+                <file>
+                    <exists>file2.properties</exists>
+                    <missing>file1.properties</missing>
+                </file>
+            </activation>
+        </profile>
+    </profiles>
+
+
+</project>

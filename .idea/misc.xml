@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pro05-demo-all-one/pom.xml" />
+        <option value="$PROJECT_DIR$/pro25-module-a/pom.xml" />
+        <option value="$PROJECT_DIR$/pro26-module-b/pom.xml" />
+        <option value="$PROJECT_DIR$/pro28-module-b/pom.xml" />
+        <option value="$PROJECT_DIR$/pro27-module-c/pom.xml" />
+        <option value="$PROJECT_DIR$/proSamePath-module/pom.xml" />
+        <option value="$PROJECT_DIR$/pro99-module-my-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-maven-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/pro33-module-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/pro034-module-micro/pom.xml" />
+        <option value="$PROJECT_DIR$/pro35-module-mirror-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/pro37-module-use-outer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pro99-module-my-plugin/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="temurin-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

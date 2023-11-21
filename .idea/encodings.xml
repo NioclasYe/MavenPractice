@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hello-maven-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-maven-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro05-demo-all-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro05-demo-all-one/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro26-module-b/pro27-module-c/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro26-module-b/pro27-module-c/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro26-module-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro26-module-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro28-module-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/pro28-module-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro25-module-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro26-module-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro26-module-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro27-module-c/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro27-module-c/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro28-module-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro28-module-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro33-module-profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro33-module-profile/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro34-module-micro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro34-module-micro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro35-module-mirror-jar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro35-module-mirror-jar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro37-module-use-outer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro37-module-use-outer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro99-module-my-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro99-module-my-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro29-module-x/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro29-module-x/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro30-module-y/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro30-module-y/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro31-module-z/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/pro31-module-z/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proSamePath-module/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

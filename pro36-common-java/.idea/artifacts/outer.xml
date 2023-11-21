@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="outer">
+    <output-path>$PROJECT_DIR$/out/artifacts/outer</output-path>
+    <root id="archive" name="outer.jar">
+      <element id="module-output" name="pro36-common-java" />
+    </root>
+  </artifact>
+</component>
