@@ -111,7 +111,7 @@ public class Main {
 ## 3.4 訪問系統環境變量
 
 * ${**env**.`系統環境變量`}
-* **前提**：使用 mvn help:system
+* **前提**：使用 mvn help:evaluate
 
 ```text
 [INFO] Enter the Maven expression i.e. ${project.groupId} or 0 to exit?:
@@ -123,7 +123,7 @@ ${env.JAVA_HOME}
 ## 3.5 訪問project屬性
 
 * **含義**：使用表達式 **$(project.xxx}** 可以 **存取目前POM中的元素值**。
-
+* **前提**：使用 mvn help:evaluate
 ### 3.5.1 訪問一級標籤
 
 * **表達式**：**$(project.xxx}**
