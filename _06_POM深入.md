@@ -290,9 +290,13 @@ ${env.JAVA_HOME}
 * **execution標籤**：
     * **id**：唯一標示
     * **phase**：**綁定**一個生命週期階段
+       * 可以是**Maven的默認生命週期階段**，或**使用自訂插件的中goal**(`當中是使用Maven的默認生命週期階段`)
+          *  例：springboot插件中的**repackage** phase，就是使用Maven的package
     * **goals** \ **goal**：指定生命週期的**目標**
         * goals標籤：可以配置`多個goal`，表示一個生命週期的環節可以對應多個目標
         * **通常配置ㄧ個goal**
+        * 實際執行操作
+           * 例：如果配置兩個**goal**(`a1\a2`)，當該**phase**(`生命週期階段`)被觸發，就會執行該`a1\a2`中所定義的方法
 * 另外插件目標的執行過程可以進行配置，例如 maven-site-plugin插件的sit目標
     ```xml
     <execution>
